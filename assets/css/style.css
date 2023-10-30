@@ -1,0 +1,654 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.cotactUs {
+    width: 100%;
+    height: 54px;
+    background-color: #F9C10B;
+
+}
+
+
+
+.contactUs-container {
+    /* width: 70%; */
+    /* background-color: red; */
+    margin: auto;
+    /* height: 54px; */
+    padding-top: 6px;
+
+}
+
+.headerIcons {
+    font-size: 18px;
+    margin-right: 7px;
+    /* background-color: aliceblue; */
+}
+
+.time-container {
+    /* background-color: rgb(10, 2, 19); */
+    padding-top: 6px;
+    padding-left: 6px;
+    float: left;
+
+}
+
+@font-face {
+    font-family: "dmSans";
+    src: url('../fonts/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf');
+}
+
+.time-text {
+    font-family: dmSans;
+    color: white;
+    font-size: 18px;
+
+
+}
+
+.phone-text {
+    font-family: dmSans;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+.headerIcon-container {
+    /* background-color: rgb(72, 39, 216); */
+    display: inline-block;
+
+}
+
+.headerIcon-container li {
+    background-color: white;
+    float: right;
+    margin: 5px;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 3px 1px 3px 6px;
+    list-style-type: none;
+
+}
+
+.navbar-collapse {
+
+    background-color: white;
+    z-index: 9;
+}
+
+.headerIcon-container a {
+
+    color: black;
+
+
+}
+
+.navbar-container {
+    height: 50px;
+    background-color: white;
+
+}
+
+
+.test {
+    color: black;
+}
+
+.navbar1 {
+    height: 80px;
+    padding-top: 0px;
+
+}
+
+.navbar-container {
+    margin: auto;
+    height: 80px;
+
+}
+
+/* .brand-container{
+    background-color: aquamarine;
+    float: left;
+}
+.menu{
+    background-color: blueviolet;
+    float: left;
+}  */
+.navbar-brand {
+    font-family: dmSans;
+    font-size: 32px;
+    font-weight: bold;
+    color: #f9c10b;
+    margin-left: 16%;
+
+}
+
+.Waso-text {
+    font-family: dmSans;
+    font-size: 32px;
+    font-weight: bold;
+    color: #f9c10b
+}
+
+.strategy-text {
+    font-family: dmSans;
+    font-size: 32px;
+    font-weight: bold;
+    color: #DC3545;
+}
+
+.navbar-nav {
+    z-index: 9;
+
+}
+
+.collapse {
+    padding-left: 16%;
+}
+
+.collapse a {
+    color: #717275;
+
+}
+
+.text-warning {
+    margin-right: 3px;
+}
+
+.nav-item {
+    font-family: "dmsans";
+    font-size: 14px;
+    padding: 15px 25px;
+    font-weight: bold;
+    color: black;
+}
+
+.carousel-inner {
+    height: 86vh ;
+}
+
+.carousel-control-prev {
+    height: 10%;
+    width: 10% !important;
+    position: absolute !important;
+    top: 657px !important;
+    left: 82% !important;
+}
+
+.carousel-control-next {
+    height: 10%;
+    width: 10% !important;
+    position: absolute !important;
+    top: 657px !important;
+    left: 87% !important;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 5rem !important;
+    height: 5rem !important;
+    color: white !important;
+
+}
+
+
+
+.carousel-caption {
+    z-index: 9;
+    top: -16%;
+    /* bottom: 0; */
+    left: 10% !important;
+    text-align: left !important;
+    width: 50%;
+    margin-right: 12px;
+    margin-left: 12px;
+
+}
+
+.carusel-h1 {
+    font-family: "dmsans";
+    font-size: 60px;
+}
+
+.btn1 {
+    font-family: "dmsans";
+    background-color: red;
+    border-radius: 100px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+}
+.wiliam-smith{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+
+.wiliam-smith-container {
+    width: 70%;
+    height: 900px;
+    margin: auto;
+    display:flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+@media (max-width:992px) {
+    .cotactUs {
+        height: 80px;
+    }
+
+    .navbar {
+        height: 80px !important;
+    }
+       
+
+    .wiliam-img {
+        width:380px ;
+
+    }
+    .wiliamimg{
+        width: 380px !important;
+        height: 400px !important;
+    }
+ 
+    .Consulting-Agency {
+        width:380px;
+        height: 480px !important;
+         margin-top: 30px;
+    } 
+
+    .growing-business {
+        height: 200px !important;
+        margin-right: 10px !important;
+    }
+
+    .growing-text-container {
+        width: 190px !important;
+        padding-left: 20px !important;
+    }
+
+    .about-us {
+        height: 200px !important;
+        margin-left: 40px !important;
+
+    }
+    .about-us-text-container{
+        width: 190px !important;
+        padding-left: 20px !important;
+
+    }
+
+    .carusel-h1 {
+        font-size: 32px;
+    }
+
+    .collapse {
+        padding-left: 0px;
+
+    }
+
+    .contactinfo-container {
+        flex-direction: column !important;
+
+    }
+    .wiliam-smith-container{
+        flex-direction: column;
+        height: auto;
+    }
+    h2{
+        font-size: 32px !important;
+    }
+    h4{
+        font-size: 20px !important;
+        
+    }
+    p{
+        font-size: 18px;
+    }
+    .helpItems-videoContent{
+        flex-direction: column !important;
+    }
+    
+
+    
+
+
+}
+
+
+
+@media (min-width:992px) {
+/* 
+    .wiliam-img {
+        height: 600px;
+
+    } */
+
+    /* .Consulting-Agency {
+        height: 53%;
+
+    } */
+
+    /* .growing-business {
+        height: 200px;
+    } */
+
+    /* .about-us {
+        height: 200px;
+    } */
+
+}
+
+.wiliam-items {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.wiliam-text-container {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 70px;
+    padding-left: 50px;
+    padding-top: 50px;
+    text-align: left;
+    font-family: "dmsans";
+    font-weight: bold;
+    color: white;
+}
+
+.wiliam-img {
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    margin-right: 30px;
+    height: 89%;
+
+}
+
+.wiliamimg {
+    width: 650px;
+    height: 720px;
+    border-radius: 20px;
+    z-index: 9;
+}
+
+.wiliam-text-container p {
+    font-family: "dmsans";
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.aboutus-text-container {
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+    padding-top: 50px;
+    text-align: left;
+    font-family: "dmsans";
+    color: black;
+    font-weight: normal;
+}
+
+.aboutus-text-container small {
+    font-size: 14px;
+}
+
+.aboutus-text-container h2 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.Consulting-Agency {
+    border-radius: 20px;
+    border: none;
+    height: 53%;
+    margin-bottom: 30px;
+    /* box-shadow: 10px 20px 20px 20px  gray; */
+}
+
+.growing-business {
+    /* padding-right: 5px; */
+    width: 50%;
+    border: none;
+    margin-right: 10px;
+    border-radius: 20px;
+    height: 115%;
+}
+
+.growing-text-container {
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+    padding-top: 50px;
+    text-align: left;
+    font-family: "dmsans";
+    font-weight: normal;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.btn2 {
+    font-family: "dmsans";
+    background-color: red;
+    border-radius: 100px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    width: 114px;
+
+}
+
+.about-us-text-container {
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+    padding-top: 50px;
+    text-align: left;
+    font-family: "dmsans";
+    font-weight: normal;
+    border-radius: 20px;
+    color: white;
+}
+
+.about-us {
+    border: none;
+    width: 50%;
+    margin-left: 10px;
+    border-radius: 20px;
+    height: 115%;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------- */
+
+.helpyou {
+    width: 100%;
+    height: auto;
+    background-color: rgb(235, 232, 232);
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
+.servicesSection{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.helpItems-videoContent{
+    margin-top: 50px;
+    width: 70%;
+    /* margin: auto; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 60%;
+}
+.helpItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 47px;
+}
+
+.helpItems a {
+    border: none;
+    border-left: 8px solid #908888;
+    text-decoration: none;
+    color: black;
+    height: 40%;
+    padding-left: 30px;
+    border-radius: 2px;
+    background-color: rgb(235, 232, 232);
+    margin: 10px;
+}
+.helpItems a:hover {
+    background-color: white;
+    box-shadow: 5px 5px 40px gray;
+    border-color: #f18a66;
+}
+.helpItems a:hover h2{
+    color: #f18a66;
+
+}
+
+.helpItems-videoContent span{
+    font-family: 'dmsans';
+    font-size: 18px;
+}
+.content-video{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.groupImg-container{
+    height: 80%;
+    width: 100%;
+
+}
+.groupImg-container img{
+    background-size: cover;
+    width:100%;
+    height: 100%;
+}
+
+
+
+
+.svg-container {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255 255 255);
+}
+
+.contactinfo {
+    width: 100%;
+    height: 618px;
+    background-color: #f9c10b;
+}
+
+.contactinfo-container {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.messagetous {
+    height: 100%;
+    float: left;
+    background-color: #f9c1;
+
+}
+
+.address-container {
+    background-color: white;
+    height: 700px;
+    float: left;
+    z-index: 9;
+    border-radius: 20px;
+    position: relative;
+    bottom: 163px;
+    align-items: start;
+    padding-left: 40px;
+}
+
+.address-container a:hover {
+    color: #ffc107;
+
+}
+
+.phone-contact {
+    color: #7e8182;
+    text-decoration: none;
+}
+
+.email1 {
+    color: #717275;
+    text-decoration: none;
+}
+
+.messagetous-h2 {
+    font-size: 42px;
+    font-weight: bold;
+    font-family: "dmsans";
+}
+
+.name-input {
+    margin-right: 49px;
+}
+
+.map-container {
+    width: 91%;
+    height: 61%;
+    border-radius: 20px;
+
+}
+
+
+
+.input-groups {
+    color: rgb(173, 170, 170);
+    border: none;
+    border-bottom: 3px solid white;
+    height: 50px;
+    background-color: #ffc107;
+    padding: 10px;
+}
+
+.input-groups:focus {
+    outline-style: none;
+    background-color: white;
+}
+
+.textarea1 {
+    height: 266px;
+    background-color: #ffc107;
+    margin-top: 20px;
+    color: rgb(173, 170, 170);
+}
+
+.submit-button1 {
+    background-color: #dc3545;
+    height: 57px;
+    margin-top: 21px;
+    border: none;
+    border-radius: 42px;
+    color: white;
+}
+
+.submit-button1:hover {
+    background-color: white;
+    color: black;
+}
